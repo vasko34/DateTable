@@ -55,6 +55,18 @@ class ViewController: UITableViewController {
         return cell
     }
     
+//    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+//        let delAction = UITableViewRowAction(style: .destructive, title: "Delete") { [weak self] action, indexPath in
+//            self?.datesShared.delDate(index: indexPath.row)
+//            self?.saveDatesData()
+//            
+//            self?.fetchData {
+//                self?.tableView.deleteRows(at: [indexPath], with: .right)
+//            }
+//        }
+//        return [delAction]
+//    }
+    
     func fetchData(completion: @escaping () -> Void) {
         let defaults = UserDefaults.standard
         let jsonDecoder = JSONDecoder()
