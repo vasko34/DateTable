@@ -13,6 +13,9 @@
 		CE7688882B0E240500B61556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7688862B0E240500B61556 /* Main.storyboard */; };
 		CE76888A2B0E240700B61556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7688892B0E240700B61556 /* Assets.xcassets */; };
 		CE76888D2B0E240700B61556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76888B2B0E240700B61556 /* LaunchScreen.storyboard */; };
+		CE7688972B0E256D00B61556 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7688962B0E256D00B61556 /* DateCell.swift */; };
+		CE7688992B0E26D900B61556 /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7688982B0E26D900B61556 /* DateModel.swift */; };
+		CE76889B2B0E299E00B61556 /* SingletonDatesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76889A2B0E299E00B61556 /* SingletonDatesArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE7688892B0E240700B61556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE76888C2B0E240700B61556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE76888E2B0E240700B61556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7688962B0E256D00B61556 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		CE7688982B0E26D900B61556 /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+		CE76889A2B0E299E00B61556 /* SingletonDatesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDatesArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				CE7688802B0E240500B61556 /* AppDelegate.swift */,
 				CE7688822B0E240500B61556 /* SceneDelegate.swift */,
 				CE7688842B0E240500B61556 /* ViewController.swift */,
+				CE7688962B0E256D00B61556 /* DateCell.swift */,
+				CE7688982B0E26D900B61556 /* DateModel.swift */,
+				CE76889A2B0E299E00B61556 /* SingletonDatesArray.swift */,
 				CE7688862B0E240500B61556 /* Main.storyboard */,
 				CE7688892B0E240700B61556 /* Assets.xcassets */,
 				CE76888B2B0E240700B61556 /* LaunchScreen.storyboard */,
@@ -141,6 +150,9 @@
 				CE7688852B0E240500B61556 /* ViewController.swift in Sources */,
 				CE7688812B0E240500B61556 /* AppDelegate.swift in Sources */,
 				CE7688832B0E240500B61556 /* SceneDelegate.swift in Sources */,
+				CE76889B2B0E299E00B61556 /* SingletonDatesArray.swift in Sources */,
+				CE7688972B0E256D00B61556 /* DateCell.swift in Sources */,
+				CE7688992B0E26D900B61556 /* DateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
